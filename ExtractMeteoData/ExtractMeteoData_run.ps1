@@ -1,3 +1,3 @@
 $fileDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 cd $fileDir
-java '-Dtalend.component.manager.m2.repository=%cd%/../lib' '-Xms256M' '-Xmx1024M' -cp '.;../lib/routines.jar;../lib/crypto-utils.jar;../lib/dom4j-1.6.1.jar;../lib/log4j-1.2.17.jar;../lib/talend_file_enhanced_20070724.jar;../lib/talendcsv.jar;extractmeteodata_0_2.jar;' local_project.extractmeteodata_0_2.ExtractMeteoData  --context=Default %*
+java '-Dtalend.component.manager.m2.repository=%cd%/../lib' '-Xms256M' '-Xmx1024M' -cp '.;../lib/routines.jar;../lib/crypto-utils.jar;../lib/dom4j-1.6.1.jar;../lib/log4j-1.2.17.jar;../lib/talend_file_enhanced_20070724.jar;../lib/talendcsv.jar;extractmeteodata_0_3.jar;' local_project.extractmeteodata_0_3.ExtractMeteoData  --context=Default %*
